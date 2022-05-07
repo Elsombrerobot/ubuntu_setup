@@ -21,8 +21,5 @@ precmd() {
     }
 }
 
-# Python path
-export PYTHONPATH=/home/marc/dev/qt_orm_forms
-
 # Change vimrc location
 export VIMINIT="source ~/.marc/.vimrc"
