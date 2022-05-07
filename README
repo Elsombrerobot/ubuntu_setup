@@ -1,0 +1,14 @@
+#Create dir ~/.marc
+
+# add to ~/.zshrc
+#Custom zsh config
+for conf in "$HOME/.marc/"*.zsh; do
+  source "${conf}"
+done
+unset conf
+
+# add to .profile
+#Custom .vimrc location
+export VIMINIT="source ~/.marc/.vimrc"
+
+# Change term shortcut to ctrl+shift+t
