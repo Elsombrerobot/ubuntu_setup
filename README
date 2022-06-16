@@ -1,4 +1,4 @@
-1 Execute "curl -H 'Authorization: token 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' -H 'Accept: application/vnd.github.v3.raw' -L https://api.github.com/repos/Elsombrerobot/ubuntu_setup/contents/ubuntu_setup.sh | bash"
+1 Execute "curl -H 'Authorization: token <TOKEN>' -H 'Accept: application/vnd.github.v3.raw' -L https://api.github.com/repos/Elsombrerobot/ubuntu_setup/contents/ubuntu_setup.sh | bash"
 
 2 Install plugins in `vim`
 
