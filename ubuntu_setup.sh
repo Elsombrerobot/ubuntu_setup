@@ -19,7 +19,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 
 # Install nerd font
 wget -P ~/Downloads https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip
-unzip DroidSansMono.zip -d ~/.local/share/fonts
+unzip ~/Downloads/CascadiaCode.zip -d ~/.local/share/fonts
 fc-cache -fv
 
 # Install Oh my posh 
