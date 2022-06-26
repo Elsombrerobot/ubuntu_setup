@@ -30,7 +30,7 @@ sudo chmod +x /usr/local/bin/oh-my-posh
 mkdir -p ~/.marc
 
 #Clone repo
-git clone git clone https://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@github.com/username/repo.git ~/.marc
+git clone git clone https://github.com/Elsombrerobot/ubuntu_setup.git ~/.marc
 
 #Modify zshrc to execute .zsh file from my conf
 echo "
