@@ -31,11 +31,11 @@ sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/
 sudo chmod +x /usr/local/bin/oh-my-posh
 
 #Vscode ext
-code --install-extension --force jdinhlife.gruvbox
-code --install-extension --force ms-python.python
-code --install-extension --force rust-lang.rust-analyzer
-code --install-extension --force bungcip.better-toml
-code --install-extension --force teabyii.ayu
+code --install-extension jdinhlife.gruvbox --force
+code --install-extension ms-python.python --force
+code --install-extension rust-lang.rust-analyzer --force
+code --install-extension bungcip.better-toml --force
+code --install-extension teabyii.ayu --force
 
 # vscode setup
 mv -f ~/.marc/vscode_settings.json $HOME/.config/Code/User/settings.json
