@@ -7,7 +7,7 @@ alias explore="xdg-open ."
 alias :q="exit"
 alias rmdl="rm -rf -v ~/Downloads/*"
 alias weather="curl https://wttr.in"
-alias updatefull="sudo apt update && sudo apt full-upgrade -y; sudo apt autoremove"
+alias updatefull="sudo apt update && sudo apt full-upgrade -y; sudo apt autoremove; sudo snap refresh"
 alias ..='cd ..'
 alias ll='ls -h -l --color=auto'
 alias l='ls --color=auto'

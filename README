@@ -1,4 +1,8 @@
-Modify zshrc to execute .zsh file from my conf
+- Excute to install and setup all `wget -O - https://raw.githubusercontent.com/Elsombrerobot/ubuntu_setup/master/ubuntu_setup.sh | sudo bash`
+
+- Launch zsh and choose option 2
+
+- Modify .zshrc to execute .zsh file from my conf
 ```
 for conf in "$HOME/.marc/"*.zsh; do
    source "${conf}"
@@ -6,10 +10,13 @@ done
 unset conf
 ```
 
-Install plugins in `vim`
+- Install plugins in `vim` : `:PlugInstall`
 
-Set wallpapers with `shotwell`.
+- Set wallpapers with `shotwell`.
 
-4Restart `zsh` and execute `updatefull`, `sourceterm`
+- Add `gruvbox theme` and `ayu icons` in vscode.
+- Set vscode font to `CaskaydiaCove Nerd Font`
 
-Change term shortcut to `ctrl+shift+te`
+- Restart `zsh` and execute `updatefull`, `sourceterm`
+
+- Change term shortcut to `ctrl+shift+te`

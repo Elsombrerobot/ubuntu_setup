@@ -14,6 +14,9 @@ sudo snap install signal-desktop
 sudo snap install code
 sudo snap install vlc
 
+# Clone my conf
+git clone https://github.com/Elsombrerobot/ubuntu_setup.git ~/.marc
+
 # Vim plug 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
@@ -26,9 +29,6 @@ rm ~/Downloads/CascadiaCode.zip
 # Install Oh my posh 
 sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh
 sudo chmod +x /usr/local/bin/oh-my-posh
-
-#Clone repo
-git clone git clone https://github.com/Elsombrerobot/ubuntu_setup.git ~/.marc
 
 #make zsh default
 chsh -s $(which zsh)
