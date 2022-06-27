@@ -30,13 +30,5 @@ sudo chmod +x /usr/local/bin/oh-my-posh
 #Clone repo
 git clone git clone https://github.com/Elsombrerobot/ubuntu_setup.git ~/.marc
 
-#Modify zshrc to execute .zsh file from my conf
-echo "
-for conf in "$HOME/.marc/"*.zsh; do
-  source "${conf}"
-done
-unset conf
-" >> ~/.zshrc
-
 #make zsh default
 chsh -s $(which zsh)

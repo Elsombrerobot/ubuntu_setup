@@ -1,9 +1,15 @@
-1 Execute "curl -H 'Authorization: token <TOKEN>' -H 'Accept: application/vnd.github.v3.raw' -L https://api.github.com/repos/Elsombrerobot/ubuntu_setup/contents/ubuntu_setup.sh | bash"
+Modify zshrc to execute .zsh file from my conf
+```
+for conf in "$HOME/.marc/"*.zsh; do
+   source "${conf}"
+done
+unset conf
+```
 
-2 Install plugins in `vim`
+Install plugins in `vim`
 
-3 Set wallpapers with `shotwell`.
+Set wallpapers with `shotwell`.
 
-4 Restart `zsh` and execute `updatefull`, `sourceterm`
+4Restart `zsh` and execute `updatefull`, `sourceterm`
 
-5 Change term shortcut to `ctrl+shift+te`
+Change term shortcut to `ctrl+shift+te`
