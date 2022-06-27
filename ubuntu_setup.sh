@@ -30,5 +30,15 @@ rm ~/Downloads/CascadiaCode.zip
 sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh
 sudo chmod +x /usr/local/bin/oh-my-posh
 
+#Vscode ext
+code --install-extension --force jdinhlife.gruvbox
+code --install-extension --force ms-python.python
+code --install-extension --force rust-lang.rust-analyzer
+code --install-extension --force bungcip.better-toml
+code --install-extension --force teabyii.ayu
+
+# vscode setup
+mv -f ~/.marc/vscode_settings.json $HOME/.config/Code/User/settings.json
+
 #make zsh default
 chsh -s $(which zsh)

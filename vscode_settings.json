@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Soft",
+    "workbench.iconTheme": "ayu",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.fontFamily": "CaskaydiaCove Nerd Font",
+    "git.confirmSync": false,
+    "explorer.confirmDragAndDrop": false,
+    // Rust
+    "[rust]": {
+        "editor.formatOnSave": true,
+    },
+    "rust-analyzer.cargo.target": null,
+    "editor.inlayHints.fontSize": 13,
+    "workbench.colorCustomizations": {
+        "editorInlayHint.inlayHint": "#bbbbbb",
+        "editorInlayHint.background": "#4d4d4d00",
+        "editorInlayHint.foreground": "#696969cc",
+        "editorInlayHint.parameterBackground": "#4d4d4d00",
+        "editorInlayHint.parameterForeground": "#696969cc",
+        "editorInlayHint.typeBackground": "#4d4d4d00",
+        "editorInlayHint.typeForeground": "#696969cc",
+    },
+}

@@ -14,9 +14,6 @@ unset conf
 
 - Set wallpapers with `shotwell`.
 
-- Add `gruvbox theme` and `ayu icons` in vscode.
-- Set vscode font to `CaskaydiaCove Nerd Font`
-
 - Restart `zsh` and execute `updatefull`, `sourceterm`
 
 - Change term shortcut to `ctrl+shift+te`
