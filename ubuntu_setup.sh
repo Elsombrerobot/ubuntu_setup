@@ -27,9 +27,6 @@ fc-cache -fv
 sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh
 sudo chmod +x /usr/local/bin/oh-my-posh
 
-# Create conf dir
-mkdir -p ~/.marc
-
 #Clone repo
 git clone git clone https://github.com/Elsombrerobot/ubuntu_setup.git ~/.marc
 
