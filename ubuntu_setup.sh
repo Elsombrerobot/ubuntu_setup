@@ -14,7 +14,6 @@ sudo snap install signal-desktop
 sudo snap install code
 sudo snap install vlc
 
-# More complex install
 # Vim plug 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
@@ -22,6 +21,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 wget -P ~/Downloads https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip
 unzip ~/Downloads/CascadiaCode.zip -d ~/.local/share/fonts
 fc-cache -fv
+rm ~/Downloads/CascadiaCode.zip
 
 # Install Oh my posh 
 sudo wget https://github.com/JanDeDobbeleer/oh-my-posh/releases/latest/download/posh-linux-amd64 -O /usr/local/bin/oh-my-posh
