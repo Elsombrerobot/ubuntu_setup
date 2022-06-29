@@ -2,11 +2,11 @@
 sudo apt update && sudo apt full-upgrade -y
 
 # Softwares install
-sudo apt-get -y install git
-sudo apt-get -y install vim
-sudo apt-get -y install zsh
-sudo apt-get -y install curl
-sudo apt-get -y install htop
+sudo apt -y install git
+sudo apt -y install vim
+sudo apt -y install zsh
+sudo apt -y install curl
+sudo apt -y install htop
 sudo snap install discord
 sudo snap install neofetch
 sudo snap install spotify
