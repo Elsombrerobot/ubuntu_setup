@@ -7,6 +7,8 @@ sudo apt -y install vim
 sudo apt -y install zsh
 sudo apt -y install curl
 sudo apt -y install htop
+sudo apt -y install python3-pip
+sudo apt -y install python3-venv
 sudo snap install discord
 sudo snap install neofetch
 sudo snap install spotify
