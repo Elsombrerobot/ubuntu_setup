@@ -3,6 +3,7 @@ sudo apt update && sudo apt full-upgrade -y
 
 # Softwares install
 sudo apt -y install git
+sudo apt -y install tree
 sudo apt -y install vim
 sudo apt -y install zsh
 sudo apt -y install curl
@@ -22,6 +23,8 @@ git clone https://github.com/Elsombrerobot/ubuntu_setup.git ~/.marc
 
 # Vim plug 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+sudo chmod -R a+rwx ~/.vim
+sudo chown -R $USER:$USER ~/.vim
 
 # Install nerd font
 wget -P ~/Downloads https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip
