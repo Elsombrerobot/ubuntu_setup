@@ -9,7 +9,7 @@ sudo apt -y install zsh
 sudo apt -y install curl
 sudo apt -y install htop
 sudo apt -y install python3-pip
-sudo apt -y install python3-venv
+sudo apt -y install python3.10-venv
 sudo snap install discord
 sudo snap install neofetch
 sudo snap install spotify
