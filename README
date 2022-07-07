@@ -15,5 +15,3 @@ unset conf
 - Set wallpapers with `shotwell`.
 
 - Restart `zsh` and execute `updatefull`, `sourceterm`
-
-- Change term shortcut to `ctrl+shift+te`
