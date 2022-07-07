@@ -44,7 +44,7 @@ code --install-extension bungcip.better-toml --force
 code --install-extension teabyii.ayu --force
 
 # vscode setup
-mv -f ~/.marc/vscode_settings.json $HOME/.config/Code/User/settings.json
-
+cp ~/.marc/vscode_settings.json $HOME/.config/Code/User/settings.json
+cp ~/.marc/vscode_keybindings.json $HOME/.config/Code/User/keybindings.json
 #make zsh default
 chsh -s $(which zsh)

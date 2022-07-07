@@ -4,6 +4,7 @@
     "security.workspace.trust.untrustedFiles": "open",
     "editor.fontFamily": "CaskaydiaCove Nerd Font",
     "git.confirmSync": false,
+    "editor.lineNumbers" : "relative",
     "explorer.confirmDragAndDrop": false,
     // Rust
     "[rust]": {
