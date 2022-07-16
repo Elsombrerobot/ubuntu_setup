@@ -7,7 +7,7 @@ alias explore="xdg-open ."
 alias :q="exit"
 alias rmdl="rm -rf -v ~/Downloads/*"
 alias weather="curl https://wttr.in"
-alias updatefull="sudo apt update && sudo apt full-upgrade -y; sudo apt autoremove; sudo snap refresh"
+alias updatefull="sudo apt update && sudo apt full-upgrade -y; sudo apt autoremove -y; sudo snap refresh"
 alias ..='cd ..'
 alias ll='ls -h -l --color=auto'
 alias l='ls --color=auto'
@@ -16,6 +16,7 @@ alias lal='ls -h -A -l --color=auto'
 alias ls='ls --color=auto'
 alias h='history -i 0'
 alias pyenv='. .venv/bin/activate'
+alias makepyenv='python -m venv .venv'
 alias zr='exec zsh'
 alias saveterm='dconf dump /org/gnome/terminal/legacy/profiles:/ > ~/.marc/terminal_profile.dconf'
 alias sourceterm='dconf load /org/gnome/terminal/legacy/profiles:/ < ~/.marc/terminal_profile.dconf'
