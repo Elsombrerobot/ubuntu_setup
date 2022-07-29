@@ -19,6 +19,13 @@ sudo snap install signal-desktop
 sudo snap install code
 sudo snap install vlc
 sudo snap install darktable
+sudo snap install gimp
+sudo snap install blender --classic
+
+# Install xnview
+curl -o ~/Downloads/XnViewMP-linux-x64.deb https://download.xnview.com/XnViewMP-linux-x64.deb
+sudo apt install -f ~/Downloads/XnViewMP-linux-x64.deb
+sudo rm ~/Downloads/XnViewMP-linux-x64.deb
 
 # Clone my conf
 git clone https://github.com/Elsombrerobot/ubuntu_setup.git ~/.marc
