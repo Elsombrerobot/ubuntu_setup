@@ -10,6 +10,7 @@ sudo apt -y install curl
 sudo apt -y install htop
 sudo apt -y install python3-pip
 sudo apt -y install python3.10-venv
+sudo apt -y install rawtherapee
 sudo snap install discord
 sudo snap install neofetch
 sudo snap install spotify
@@ -17,6 +18,7 @@ sudo snap install bitwarden
 sudo snap install signal-desktop
 sudo snap install code
 sudo snap install vlc
+sudo snap install darktable
 
 # Clone my conf
 git clone https://github.com/Elsombrerobot/ubuntu_setup.git ~/.marc
@@ -46,5 +48,6 @@ code --install-extension teabyii.ayu --force
 # vscode setup
 cp ~/.marc/vscode_settings.json $HOME/.config/Code/User/settings.json
 cp ~/.marc/vscode_keybindings.json $HOME/.config/Code/User/keybindings.json
+
 #make zsh default
 chsh -s $(which zsh)
