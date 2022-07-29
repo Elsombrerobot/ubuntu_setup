@@ -11,6 +11,7 @@ sudo apt -y install htop
 sudo apt -y install python3-pip
 sudo apt -y install python3.10-venv
 sudo apt -y install rawtherapee
+sudo apt -y install gnome-tweaks
 sudo snap install discord
 sudo snap install neofetch
 sudo snap install spotify
@@ -24,7 +25,7 @@ sudo snap install blender --classic
 
 # Install xnview
 curl -o ~/Downloads/XnViewMP-linux-x64.deb https://download.xnview.com/XnViewMP-linux-x64.deb
-sudo apt install -f ~/Downloads/XnViewMP-linux-x64.deb
+sudo apt -y install -f ~/Downloads/XnViewMP-linux-x64.deb
 sudo rm ~/Downloads/XnViewMP-linux-x64.deb
 
 # Clone my conf
